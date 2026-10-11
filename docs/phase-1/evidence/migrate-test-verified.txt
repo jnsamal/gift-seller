@@ -1,0 +1,20 @@
+
+> gifty-server@0.1.0 db:migrate:test
+> node scripts/migrate-test.mjs
+
+Loaded Prisma config from prisma.config.ts.
+
+Prisma schema loaded from prisma\schema.prisma.
+Datasource "db": MySQL database "gifty_test" at "127.0.0.1:3317"
+
+1 migration found in prisma/migrations
+
+Applying migration `20261009190000_foundation`
+
+The following migration(s) have been applied:
+
+migrations/
+  └─ 20261009190000_foundation/
+    └─ migration.sql
+
+All migrations have been successfully applied.

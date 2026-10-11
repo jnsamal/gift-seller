@@ -1,0 +1,10 @@
+
+> gifty-server@0.1.0 db:seed
+> prisma db seed
+
+Loaded Prisma config from prisma.config.ts.
+
+Running seed command `tsx prisma/seed.ts` ...
+Development seed completed (no users or credentials created)
+
+The seed command has been executed.

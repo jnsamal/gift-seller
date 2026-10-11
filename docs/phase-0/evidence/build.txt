@@ -1,0 +1,23 @@
+
+> gift@0.1.0 build
+> next build
+
+▲ Next.js 16.4.0 (Turbopack)
+
+thread '<unnamed>' (19712) panicked at C:\Users\runneradmin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\swc-77.0.0\src\config\mod.rs:2453:14:
+called `Result::unwrap()` on an `Err` value: failed to canonicalize jsc.baseUrl(`C:\Code\Qubnix\gift-main`)
+This is required on Windows because of UNC path.
+
+Caused by:
+    Access is denied. (os error 5)
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+⨯ Failed to load next.config.ts, see more info here https://nextjs.org/docs/messages/next-config-error
+
+> Build error occurred
+[Error: failed to process called `Result::unwrap()` on an `Err` value: failed to canonicalize jsc.baseUrl(`C:\Code\Qubnix\gift-main`)
+This is required on Windows because of UNC path.
+
+Caused by:
+    Access is denied. (os error 5)] {
+  code: 'GenericFailure'
+}

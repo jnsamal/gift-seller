@@ -1,0 +1,48 @@
+
+> gifty-server@0.1.0 test:e2e:production
+> playwright test production.spec.ts
+
+
+Running 6 tests using 1 worker
+
+(node:20264) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:20264) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 1 [mobile] › e2e\production.spec.ts:3:1 › production cannot place a simulated order or discard the cart (1.3s)
+  ok 2 [mobile] › e2e\production.spec.ts:13:1 › production cannot report a simulated OTP send (881ms)
+(node:17080) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:17080) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 3 [tablet] › e2e\production.spec.ts:3:1 › production cannot place a simulated order or discard the cart (1.2s)
+  ok 4 [tablet] › e2e\production.spec.ts:13:1 › production cannot report a simulated OTP send (756ms)
+(node:19956) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:19956) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 5 [desktop] › e2e\production.spec.ts:3:1 › production cannot place a simulated order or discard the cart (1.2s)
+  x  6 [desktop] › e2e\production.spec.ts:13:1 › production cannot report a simulated OTP send (662ms)
+
+
+  1) [desktop] › e2e\production.spec.ts:13:1 › production cannot report a simulated OTP send ───────
+
+    Error: browserContext.close: ENOENT: no such file or directory, open 'C:\Code\Qubnix\gift-main\server\test-results\.playwright-artifacts-2\traces\ed69554c53210704c98c-2d0fa423a8931bed8416-recording2.trace'
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\production-production-cannot-report-a-simulated-OTP-send-desktop\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\production-production-cannot-report-a-simulated-OTP-send-desktop\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\production-production-cannot-report-a-simulated-OTP-send-desktop\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\production-production-cannot-report-a-simulated-OTP-send-desktop\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 failed
+    [desktop] › e2e\production.spec.ts:13:1 › production cannot report a simulated OTP send ────────
+  5 passed (11.3s)

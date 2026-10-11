@@ -1,0 +1,192 @@
+390 / page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:3000/
+Call log:
+[2m  - navigating to "http://localhost:3000/", waiting until "networkidle"[22m
+
+390 /category/personalised-gifts page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:3000/category/personalised-gifts
+Call log:
+[2m  - navigating to "http://localhost:3000/category/personalised-gifts", waiting until "networkidle"[22m
+
+390 /product/personalised-photo-frame page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:3000/product/personalised-photo-frame
+Call log:
+[2m  - navigating to "http://localhost:3000/product/personalised-photo-frame", waiting until "networkidle"[22m
+
+390 /search?q=frame page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:3000/search?q=frame
+Call log:
+[2m  - navigating to "http://localhost:3000/search?q=frame", waiting until "networkidle"[22m
+
+390 /search?q=zzzznomatch page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:3000/search?q=zzzznomatch
+Call log:
+[2m  - navigating to "http://localhost:3000/search?q=zzzznomatch", waiting until "networkidle"[22m
+
+390 /cart page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:3000/cart
+Call log:
+[2m  - navigating to "http://localhost:3000/cart", waiting until "networkidle"[22m
+
+390 /checkout page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:3000/checkout
+Call log:
+[2m  - navigating to "http://localhost:3000/checkout", waiting until "networkidle"[22m
+
+390 /login page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:3000/login
+Call log:
+[2m  - navigating to "http://localhost:3000/login", waiting until "networkidle"[22m
+
+390 /verify-otp?id=9876543210 page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:3000/verify-otp?id=9876543210
+Call log:
+[2m  - navigating to "http://localhost:3000/verify-otp?id=9876543210", waiting until "networkidle"[22m
+
+390 /order/success/ORD-12345 page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:3000/order/success/ORD-12345
+Call log:
+[2m  - navigating to "http://localhost:3000/order/success/ORD-12345", waiting until "networkidle"[22m
+
+390 /track-order page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:3000/track-order
+Call log:
+[2m  - navigating to "http://localhost:3000/track-order", waiting until "networkidle"[22m
+
+390 /track-order/ORD-12345 page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:3000/track-order/ORD-12345
+Call log:
+[2m  - navigating to "http://localhost:3000/track-order/ORD-12345", waiting until "networkidle"[22m
+
+390 /category/all page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:3000/category/all
+Call log:
+[2m  - navigating to "http://localhost:3000/category/all", waiting until "networkidle"[22m
+
+390 /account page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:3000/account
+Call log:
+[2m  - navigating to "http://localhost:3000/account", waiting until "networkidle"[22m
+
+390 /privacy page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:3000/privacy
+Call log:
+[2m  - navigating to "http://localhost:3000/privacy", waiting until "networkidle"[22m
+
+390 /product/artisan-chocolate-box page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:3000/product/artisan-chocolate-box
+Call log:
+[2m  - navigating to "http://localhost:3000/product/artisan-chocolate-box", waiting until "networkidle"[22m
+
+768 / page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:3000/
+Call log:
+[2m  - navigating to "http://localhost:3000/", waiting until "networkidle"[22m
+
+768 /category/personalised-gifts page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:3000/category/personalised-gifts
+Call log:
+[2m  - navigating to "http://localhost:3000/category/personalised-gifts", waiting until "networkidle"[22m
+
+768 /product/personalised-photo-frame page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:3000/product/personalised-photo-frame
+Call log:
+[2m  - navigating to "http://localhost:3000/product/personalised-photo-frame", waiting until "networkidle"[22m
+
+768 /search?q=frame page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:3000/search?q=frame
+Call log:
+[2m  - navigating to "http://localhost:3000/search?q=frame", waiting until "networkidle"[22m
+
+768 /search?q=zzzznomatch page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:3000/search?q=zzzznomatch
+Call log:
+[2m  - navigating to "http://localhost:3000/search?q=zzzznomatch", waiting until "networkidle"[22m
+
+768 /cart page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:3000/cart
+Call log:
+[2m  - navigating to "http://localhost:3000/cart", waiting until "networkidle"[22m
+
+768 /checkout page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:3000/checkout
+Call log:
+[2m  - navigating to "http://localhost:3000/checkout", waiting until "networkidle"[22m
+
+768 /login page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:3000/login
+Call log:
+[2m  - navigating to "http://localhost:3000/login", waiting until "networkidle"[22m
+
+768 /verify-otp?id=9876543210 page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:3000/verify-otp?id=9876543210
+Call log:
+[2m  - navigating to "http://localhost:3000/verify-otp?id=9876543210", waiting until "networkidle"[22m
+
+768 /order/success/ORD-12345 page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:3000/order/success/ORD-12345
+Call log:
+[2m  - navigating to "http://localhost:3000/order/success/ORD-12345", waiting until "networkidle"[22m
+
+768 /track-order page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:3000/track-order
+Call log:
+[2m  - navigating to "http://localhost:3000/track-order", waiting until "networkidle"[22m
+
+768 /track-order/ORD-12345 page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:3000/track-order/ORD-12345
+Call log:
+[2m  - navigating to "http://localhost:3000/track-order/ORD-12345", waiting until "networkidle"[22m
+
+768 /category/all page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:3000/category/all
+Call log:
+[2m  - navigating to "http://localhost:3000/category/all", waiting until "networkidle"[22m
+
+768 /account page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:3000/account
+Call log:
+[2m  - navigating to "http://localhost:3000/account", waiting until "networkidle"[22m
+
+768 /privacy page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:3000/privacy
+Call log:
+[2m  - navigating to "http://localhost:3000/privacy", waiting until "networkidle"[22m
+
+768 /product/artisan-chocolate-box page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:3000/product/artisan-chocolate-box
+Call log:
+[2m  - navigating to "http://localhost:3000/product/artisan-chocolate-box", waiting until "networkidle"[22m
+
+1440 / page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:3000/
+Call log:
+[2m  - navigating to "http://localhost:3000/", waiting until "networkidle"[22m
+
+1440 /category/personalised-gifts page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:3000/category/personalised-gifts
+Call log:
+[2m  - navigating to "http://localhost:3000/category/personalised-gifts", waiting until "networkidle"[22m
+
+1440 /product/personalised-photo-frame page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:3000/product/personalised-photo-frame
+Call log:
+[2m  - navigating to "http://localhost:3000/product/personalised-photo-frame", waiting until "networkidle"[22m
+
+1440 /search?q=frame page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:3000/search?q=frame
+Call log:
+[2m  - navigating to "http://localhost:3000/search?q=frame", waiting until "networkidle"[22m
+
+1440 /search?q=zzzznomatch page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:3000/search?q=zzzznomatch
+Call log:
+[2m  - navigating to "http://localhost:3000/search?q=zzzznomatch", waiting until "networkidle"[22m
+
+1440 /cart page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:3000/cart
+Call log:
+[2m  - navigating to "http://localhost:3000/cart", waiting until "networkidle"[22m
+
+1440 /checkout page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:3000/checkout
+Call log:
+[2m  - navigating to "http://localhost:3000/checkout", waiting until "networkidle"[22m
+
+1440 /login page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:3000/login
+Call log:
+[2m  - navigating to "http://localhost:3000/login", waiting until "networkidle"[22m
+
+1440 /verify-otp?id=9876543210 page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:3000/verify-otp?id=9876543210
+Call log:
+[2m  - navigating to "http://localhost:3000/verify-otp?id=9876543210", waiting until "networkidle"[22m
+
+1440 /order/success/ORD-12345 page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:3000/order/success/ORD-12345
+Call log:
+[2m  - navigating to "http://localhost:3000/order/success/ORD-12345", waiting until "networkidle"[22m
+
+1440 /track-order page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:3000/track-order
+Call log:
+[2m  - navigating to "http://localhost:3000/track-order", waiting until "networkidle"[22m
+
+1440 /track-order/ORD-12345 page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:3000/track-order/ORD-12345
+Call log:
+[2m  - navigating to "http://localhost:3000/track-order/ORD-12345", waiting until "networkidle"[22m
+
+1440 /category/all page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:3000/category/all
+Call log:
+[2m  - navigating to "http://localhost:3000/category/all", waiting until "networkidle"[22m
+
+1440 /account page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:3000/account
+Call log:
+[2m  - navigating to "http://localhost:3000/account", waiting until "networkidle"[22m
+
+1440 /privacy page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:3000/privacy
+Call log:
+[2m  - navigating to "http://localhost:3000/privacy", waiting until "networkidle"[22m
+
+1440 /product/artisan-chocolate-box page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:3000/product/artisan-chocolate-box
+Call log:
+[2m  - navigating to "http://localhost:3000/product/artisan-chocolate-box", waiting until "networkidle"[22m
+

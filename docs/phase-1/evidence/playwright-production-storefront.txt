@@ -1,0 +1,64 @@
+
+> gifty-server@0.1.0 test:e2e
+> playwright test storefront.spec.ts
+
+
+Running 18 tests using 1 worker
+
+(node:9100) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:9100) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  1 [mobile] › e2e\storefront.spec.ts:3:1 › cart renders and checkout button navigates (1.5s)
+  ok  2 [mobile] › e2e\storefront.spec.ts:16:1 › category grid fits viewport and retains visual tokens (2.1s)
+  ok  3 [mobile] › e2e\storefront.spec.ts:28:1 › search safely handles a literal percent (990ms)
+  ok  4 [mobile] › e2e\storefront.spec.ts:34:1 › sample order confirmation renders without client exceptions (1.8s)
+  ok  5 [mobile] › e2e\storefront.spec.ts:42:1 › tracking shows existing development fixture (2.3s)
+  ok  6 [mobile] › e2e\storefront.spec.ts:53:1 › OTP form remains accessible at its established route (704ms)
+(node:23152) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:23152) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x   7 [tablet] › e2e\storefront.spec.ts:3:1 › cart renders and checkout button navigates (1.5s)
+(node:23100) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:23100) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  8 [tablet] › e2e\storefront.spec.ts:16:1 › category grid fits viewport and retains visual tokens (1.5s)
+  ok  9 [tablet] › e2e\storefront.spec.ts:28:1 › search safely handles a literal percent (743ms)
+  ok 10 [tablet] › e2e\storefront.spec.ts:34:1 › sample order confirmation renders without client exceptions (1.7s)
+  ok 11 [tablet] › e2e\storefront.spec.ts:42:1 › tracking shows existing development fixture (2.4s)
+  ok 12 [tablet] › e2e\storefront.spec.ts:53:1 › OTP form remains accessible at its established route (855ms)
+(node:22868) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:22868) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 13 [desktop] › e2e\storefront.spec.ts:3:1 › cart renders and checkout button navigates (1.6s)
+  ok 14 [desktop] › e2e\storefront.spec.ts:16:1 › category grid fits viewport and retains visual tokens (5.0s)
+  ok 15 [desktop] › e2e\storefront.spec.ts:28:1 › search safely handles a literal percent (1.0s)
+  ok 16 [desktop] › e2e\storefront.spec.ts:34:1 › sample order confirmation renders without client exceptions (1.8s)
+  ok 17 [desktop] › e2e\storefront.spec.ts:42:1 › tracking shows existing development fixture (2.3s)
+  ok 18 [desktop] › e2e\storefront.spec.ts:53:1 › OTP form remains accessible at its established route (547ms)
+
+
+  1) [tablet] › e2e\storefront.spec.ts:3:1 › cart renders and checkout button navigates ────────────
+
+    Error: browserContext.close: ENOENT: no such file or directory, open 'C:\Code\Qubnix\gift-main\server\test-results\.playwright-artifacts-1\traces\972707a4d1c1162f8b74-2b2301abaaf1a7660d2c.trace'
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\storefront-cart-renders-and-checkout-button-navigates-tablet\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\storefront-cart-renders-and-checkout-button-navigates-tablet\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\storefront-cart-renders-and-checkout-button-navigates-tablet\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\storefront-cart-renders-and-checkout-button-navigates-tablet\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 failed
+    [tablet] › e2e\storefront.spec.ts:3:1 › cart renders and checkout button navigates ─────────────
+  17 passed (38.6s)

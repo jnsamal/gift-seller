@@ -1,0 +1,11 @@
+
+> gifty-server@0.1.0 db:migrate
+> prisma migrate deploy
+
+Loaded Prisma config from prisma.config.ts.
+
+Prisma schema loaded from prisma\schema.prisma.
+Datasource "db": MySQL database "gifty_dev" at "127.0.0.1:3317"
+
+Error: Schema engine error:
+

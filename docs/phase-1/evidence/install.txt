@@ -1,0 +1,33 @@
+npm warn deprecated eslint@9.39.5: This version is no longer supported. Please see https://eslint.org/version-support for other options.
+npm warn cleanup Failed to remove some directories [
+npm warn cleanup   [
+npm warn cleanup     '\\\\?\\C:\\Code\\Qubnix\\gift-main\\server\\node_modules',
+npm warn cleanup     [Error: EPERM: operation not permitted, rmdir 'C:\Code\Qubnix\gift-main\server\node_modules\mariadb\node_modules'] {
+npm warn cleanup       errno: -4048,
+npm warn cleanup       code: 'EPERM',
+npm warn cleanup       syscall: 'rmdir',
+npm warn cleanup       path: 'C:\\Code\\Qubnix\\gift-main\\server\\node_modules\\mariadb\\node_modules'
+npm warn cleanup     }
+npm warn cleanup   ],
+npm warn cleanup   [
+npm warn cleanup     '\\\\?\\C:\\Code\\Qubnix\\gift-main\\server\\node_modules\\@prisma\\engines',
+npm warn cleanup     [Error: EPERM: operation not permitted, rmdir 'C:\Code\Qubnix\gift-main\server\node_modules\@prisma\engines\node_modules'] {
+npm warn cleanup       errno: -4048,
+npm warn cleanup       code: 'EPERM',
+npm warn cleanup       syscall: 'rmdir',
+npm warn cleanup       path: 'C:\\Code\\Qubnix\\gift-main\\server\\node_modules\\@prisma\\engines\\node_modules'
+npm warn cleanup     }
+npm warn cleanup   ],
+npm warn cleanup   [
+npm warn cleanup     '\\\\?\\C:\\Code\\Qubnix\\gift-main\\server\\node_modules\\fast-check',
+npm warn cleanup     [Error: EPERM: operation not permitted, rmdir 'C:\Code\Qubnix\gift-main\server\node_modules\fast-check'] {
+npm warn cleanup       errno: -4048,
+npm warn cleanup       code: 'EPERM',
+npm warn cleanup       syscall: 'rmdir',
+npm warn cleanup       path: 'C:\\Code\\Qubnix\\gift-main\\server\\node_modules\\fast-check'
+npm warn cleanup     }
+npm warn cleanup   ]
+npm warn cleanup ]
+npm error code EIDLETIMEOUT
+npm error Idle timeout reached for host `registry.npmjs.org:443`
+npm error A complete log of this run can be found in: C:\Users\HP\AppData\Local\npm-cache\_logs\2026-10-09T17_03_04_627Z-debug-0.log

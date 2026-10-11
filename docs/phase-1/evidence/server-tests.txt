@@ -1,0 +1,29 @@
+
+> gifty-server@0.1.0 test
+> vitest run --exclude tests/database.test.ts
+
+
+ RUN  v5.0.3 C:/Code/Qubnix/gift-main/server
+
+ ❯ tests/http.test.ts (0 test)
+
+⎯⎯⎯⎯⎯⎯ Failed Suites 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  tests/http.test.ts [ tests/http.test.ts ]
+Error: ENOENT: no such file or directory, open 'C:\Users\HP\AppData\Local\Packages\sandbox.{6490de17-e766-4f2d-ae5f-260bcfd3a422}\AC\Temp\Mi1LdzFyfV40WC_ew2hDR\ssr\826be2b1c77fa79f0279ac9453a0e625189f241d'
+ ❯ tests/http.test.ts:7:1
+      5| import pino from 'pino';
+      6| import { createApp } from '../src/app.js';
+      7| import { parseEnvironment } from '../src/config/env.js';
+       | ^
+      8| import { createLogger } from '../src/lib/logger.js';
+      9| import { errorHandler } from '../src/middleware/errors.js';
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed | 1 passed (2)
+      Tests  11 passed (11)
+   Start at  23:45:29
+   Duration  5.66s (import 83%, worker 7%, transform 7%, tests 2%)
+

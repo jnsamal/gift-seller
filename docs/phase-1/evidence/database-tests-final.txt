@@ -1,0 +1,13 @@
+
+> gifty-server@0.1.0 test:db
+> vitest run tests/database.test.ts
+
+
+ RUN  v5.0.3 C:/Code/Qubnix/gift-main/server
+
+
+ Test Files  1 passed (1)
+      Tests  8 passed (8)
+   Start at  10:19:54
+   Duration  1.92s (import 47%, tests 37%, transform 15%, worker 1%)
+

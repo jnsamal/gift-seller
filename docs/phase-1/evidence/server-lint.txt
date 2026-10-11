@@ -1,0 +1,4 @@
+
+> gifty-server@0.1.0 lint
+> eslint src tests prisma.config.ts prisma/seed.ts
+

@@ -1,0 +1,592 @@
+[
+  {
+    "Path": "src\\app\\favicon.ico",
+    "Bytes": 15086,
+    "SHA256": "C28FDD2A4F31E2DC64F653962286DA5C82A4CDFC518B242D32812C624E9A19A4"
+  },
+  {
+    "Path": "src\\app\\globals.css",
+    "Bytes": 4129,
+    "SHA256": "BA2155EB26DE0409232F8CD23DD1B49006F59246203E06D6AB609F198C1EB118"
+  },
+  {
+    "Path": "src\\app\\layout.tsx",
+    "Bytes": 1182,
+    "SHA256": "CADD5BA248581BFC8D6A723866C3CD069FA7277F90851A33E0FC4302F07AA26B"
+  },
+  {
+    "Path": "src\\app\\page.tsx",
+    "Bytes": 7011,
+    "SHA256": "66B4BEED1A4ED140D662A0ADE62C534337F5E06BABE75E52435B744704502AFC"
+  },
+  {
+    "Path": "src\\app\\cart\\page.tsx",
+    "Bytes": 298,
+    "SHA256": "B740060DA35FFDC8C305E23EB434612E74B945DC77885CA20E1A6111941C2060"
+  },
+  {
+    "Path": "src\\app\\category\\[slug]\\error.tsx",
+    "Bytes": 1411,
+    "SHA256": "1996E711E270B08A1EAA10F6B5F05F900201509E66E658806333815F1005DB02"
+  },
+  {
+    "Path": "src\\app\\category\\[slug]\\page.tsx",
+    "Bytes": 1484,
+    "SHA256": "4984F792135E1D56339A77DE3DD3B23E7BF3AF911F8FB151300997806BA4724A"
+  },
+  {
+    "Path": "src\\app\\checkout\\page.tsx",
+    "Bytes": 303,
+    "SHA256": "BCBCE0D0696C5A136D59D204988C952808108FD37E66DB1902577A30FA6FD0A1"
+  },
+  {
+    "Path": "src\\app\\login\\page.tsx",
+    "Bytes": 4978,
+    "SHA256": "231A1420313A832BA6E4C242A6ACC92F170181626D787134633D98F4C8EA9D69"
+  },
+  {
+    "Path": "src\\app\\order\\success\\[id]\\page.tsx",
+    "Bytes": 446,
+    "SHA256": "B79E54C3C91905360E2EDBBF50D5CE4A9C6A073AF00DF3F62832D4138B5AB252"
+  },
+  {
+    "Path": "src\\app\\product\\[slug]\\page.tsx",
+    "Bytes": 2633,
+    "SHA256": "0E62E038734FB48522057D33842606EDB8AAA9358C70FC0B2341EB3C1A162A6D"
+  },
+  {
+    "Path": "src\\app\\search\\page.tsx",
+    "Bytes": 1769,
+    "SHA256": "FD7CE54F1B40DD9938114AB69DFB14A845FC92C3FAEB3AD596BCE2618587CA2D"
+  },
+  {
+    "Path": "src\\app\\track-order\\page.tsx",
+    "Bytes": 687,
+    "SHA256": "72A0EF915007860BCC7B31C09FB17FD12E5622C5D743C92E49F1D3280727C91E"
+  },
+  {
+    "Path": "src\\app\\track-order\\[id]\\page.tsx",
+    "Bytes": 824,
+    "SHA256": "8CF3DE228BDC024EA8AC97275AD83E131D01119550E731BFA14EF33D219AED29"
+  },
+  {
+    "Path": "src\\app\\verify-otp\\page.tsx",
+    "Bytes": 8206,
+    "SHA256": "13325A2288FD0EC44DC79E0B49ED74827DF9317C0E3D3D98EAE1744FA4359828"
+  },
+  {
+    "Path": "src\\components\\AnnouncementBar.tsx",
+    "Bytes": 2401,
+    "SHA256": "839BDE788C149BFA00445229AC9B0DBD6110E639FA6091BC77B4882BEC4F5347"
+  },
+  {
+    "Path": "src\\components\\CategoryNavigation.tsx",
+    "Bytes": 11977,
+    "SHA256": "35DC4F4B6890C0066C4612043C6AC4FA1D5D8944DEEF40547553A15242BE22D6"
+  },
+  {
+    "Path": "src\\components\\DeliveryIntent.tsx",
+    "Bytes": 8634,
+    "SHA256": "0ECB31697960FC21A1080A52BD222739CA8C8A1368868AA08CFAC4AF427F9D7A"
+  },
+  {
+    "Path": "src\\components\\Logo.tsx",
+    "Bytes": 316,
+    "SHA256": "F6B303EE4AE985487E9A2B363C6CF9EEAC44C697B112C120945D3BE825E7123B"
+  },
+  {
+    "Path": "src\\components\\MainNavbar.tsx",
+    "Bytes": 5873,
+    "SHA256": "E67E5156E0206A1563902896EE92B3C4434025FCF491919CA3A413E0DAA96066"
+  },
+  {
+    "Path": "src\\components\\NavbarSearch.tsx",
+    "Bytes": 4998,
+    "SHA256": "9C599BE9E5746ADD447395448EB52718CD877BD26C2761244A648D40B6313612"
+  },
+  {
+    "Path": "src\\components\\auth\\AuthContext.tsx",
+    "Bytes": 1408,
+    "SHA256": "B1EB05938A07A3FEDA4AFFB18373A97E9AFFD659BADDB3A403B2C19AEF853CDB"
+  },
+  {
+    "Path": "src\\components\\checkout\\CheckoutOrderSummary.tsx",
+    "Bytes": 6000,
+    "SHA256": "D2912876CDD0724D55B44E577F4B41D132A4EB7C62E4F3F9C109454288525B7E"
+  },
+  {
+    "Path": "src\\components\\checkout\\CheckoutPage.tsx",
+    "Bytes": 15199,
+    "SHA256": "B084CA747E37E04A7CABEDCFC0B12701D625ED0A4D749FADA5084DB02F54A6A3"
+  },
+  {
+    "Path": "src\\components\\checkout\\OrderSkeleton.tsx",
+    "Bytes": 2422,
+    "SHA256": "C2062A02F2C56C01A6021E2A340A72BBC575052EE9405F9FAB2D2C7E2C3518BB"
+  },
+  {
+    "Path": "src\\components\\checkout\\OrderSuccessPage.tsx",
+    "Bytes": 14116,
+    "SHA256": "C44492CC173BA84E29E63BA80FBE2607F90D2E3A7DF896B8DAEDA441EE5A5355"
+  },
+  {
+    "Path": "src\\components\\commerce\\CartContext.tsx",
+    "Bytes": 2526,
+    "SHA256": "7A4BA2FD4E438C2E691B57CCD8D89797D85CB453176D59A8DB61B18D0F49E071"
+  },
+  {
+    "Path": "src\\components\\commerce\\CartEmptyState.tsx",
+    "Bytes": 1962,
+    "SHA256": "A7605097CC790EF6A1DFBC7CCE3CE318DA434EB5FCD82F3F672021CF7578BA48"
+  },
+  {
+    "Path": "src\\components\\commerce\\CartItem.tsx",
+    "Bytes": 5430,
+    "SHA256": "75A7CEE93EDE80EE03C80BDFD889ACCC69CC39AF934C4C18B6624C512D3980F6"
+  },
+  {
+    "Path": "src\\components\\commerce\\CartPage.tsx",
+    "Bytes": 4419,
+    "SHA256": "8993344C671726A6B68EA8766527B867C85C780B47E2807A734C9921724BA69C"
+  },
+  {
+    "Path": "src\\components\\commerce\\CartSummary.tsx",
+    "Bytes": 6724,
+    "SHA256": "6C91547F4981801986946AC459E568DE9FD1B2614746C596A394D8E4A4C6509D"
+  },
+  {
+    "Path": "src\\components\\gifting\\BestSellers.tsx",
+    "Bytes": 2730,
+    "SHA256": "C10717323841C848E08F2EAEC5AEB4D07768651C6F46DD2BCEAF525487B5D562"
+  },
+  {
+    "Path": "src\\components\\gifting\\CategoryPage.tsx",
+    "Bytes": 6224,
+    "SHA256": "3CE61FCAA0C9DA18780DED5A4C482669BE2D1863A1C1D215CB38571666CC9DD3"
+  },
+  {
+    "Path": "src\\components\\gifting\\CorporateGifting.tsx",
+    "Bytes": 4186,
+    "SHA256": "E2D86D032CF0EF7138397536633D256136D927F5D26DF79B57680DE845E2F485"
+  },
+  {
+    "Path": "src\\components\\gifting\\CustomerReviews.tsx",
+    "Bytes": 4434,
+    "SHA256": "44987F17D7BD8A81B8D545ABEA9CCD3817BEFDBD59FE40684FBC2902803EC751"
+  },
+  {
+    "Path": "src\\components\\gifting\\Footer.tsx",
+    "Bytes": 11725,
+    "SHA256": "0810CA0F73F749CE87E9B760F4AA2B89D8A80C9B05B3B504CF4F5E167F6F8971"
+  },
+  {
+    "Path": "src\\components\\gifting\\GiftFinder.tsx",
+    "Bytes": 23557,
+    "SHA256": "4F0B4DDCE1AC5D9E672671DF3F482A1542FB5EE418AC76F5835CE8FF91DEFD8E"
+  },
+  {
+    "Path": "src\\components\\gifting\\GiftInspiration.tsx",
+    "Bytes": 4363,
+    "SHA256": "8108FE3E6D20846B3B5BCCC6582E57FB7052D53B06A4C5CDD3F7481DBA96F201"
+  },
+  {
+    "Path": "src\\components\\gifting\\Newsletter.tsx",
+    "Bytes": 6291,
+    "SHA256": "643BC57DC8DD7E9ED41759E3E36BFAA2A829F312B74AA53EC1521B373628275C"
+  },
+  {
+    "Path": "src\\components\\gifting\\PersonalisedGifts.tsx",
+    "Bytes": 3847,
+    "SHA256": "6DF1AA360EA9CDBC5505D68FA442EFEA603E7E5E43C547FBF7D6F503099C224B"
+  },
+  {
+    "Path": "src\\components\\gifting\\PopularCategories.tsx",
+    "Bytes": 3748,
+    "SHA256": "8E334C5D1C4BB739252369A2B2B20B270F4134E49028DF71A8D2DD9AD385F138"
+  },
+  {
+    "Path": "src\\components\\gifting\\ProductCard.tsx",
+    "Bytes": 4622,
+    "SHA256": "DF190FC2B0105C7D5D2E49C43E30911E205A602D622337B6CB2C8E91A1403CBF"
+  },
+  {
+    "Path": "src\\components\\gifting\\ProductGallery.tsx",
+    "Bytes": 8461,
+    "SHA256": "5B00AC5317654C7D54C00A88A872A4F4E5DCA1E805125E9481ECB247FB9F1852"
+  },
+  {
+    "Path": "src\\components\\gifting\\ProductInfo.tsx",
+    "Bytes": 15166,
+    "SHA256": "A8184829CE1C5DD9121C45A7D2C365CE3DB732EC22D1D86C371AC073B3CF50D0"
+  },
+  {
+    "Path": "src\\components\\gifting\\ProductListing.tsx",
+    "Bytes": 20599,
+    "SHA256": "27E3E357AF4C9FCA9EDCCEEFBFD0FDE1DC3F6D119E115DDB65F23CA589B9EE4C"
+  },
+  {
+    "Path": "src\\components\\gifting\\ProductPage.tsx",
+    "Bytes": 4292,
+    "SHA256": "1C7185994BD44288E7C7A485FAA465C5036C4922701E903508750BC60D9FA364"
+  },
+  {
+    "Path": "src\\components\\gifting\\ProductSkeleton.tsx",
+    "Bytes": 491,
+    "SHA256": "3D4CA2364199C05A90CEFE7F9FC5DA9C890D079E23E45E8AE77DF1785D3B60F9"
+  },
+  {
+    "Path": "src\\components\\gifting\\PromotionalCollections.tsx",
+    "Bytes": 3402,
+    "SHA256": "5C9E966766919817F0E2F6C43976AB93C49EDD51EFF907A8081D0C54A42F915E"
+  },
+  {
+    "Path": "src\\components\\gifting\\SameDayGifts.tsx",
+    "Bytes": 3625,
+    "SHA256": "20154221E08F8FE1CAA4A9760DFA13C1BF092DF047931BBE062BF89306ACBEDB"
+  },
+  {
+    "Path": "src\\components\\gifting\\SearchPage.tsx",
+    "Bytes": 2804,
+    "SHA256": "A10A2CC1A226C51C2B3FEA722CEF73A5F61FA651BFE18D6AB125E31C8226559A"
+  },
+  {
+    "Path": "src\\components\\gifting\\ShopByOccasion.tsx",
+    "Bytes": 4339,
+    "SHA256": "12D8D7B2E40B7AD4B2DFB46E0446935B24DFC1411420CEF02C2E15D24138A06C"
+  },
+  {
+    "Path": "src\\components\\gifting\\ShopByRecipient.tsx",
+    "Bytes": 5083,
+    "SHA256": "57C521A2E75919DEB28F4F87B259E238DE47BEB280A6F8E5C95594CB5AEBB55B"
+  },
+  {
+    "Path": "src\\components\\tracking\\OrderTrackingPage.tsx",
+    "Bytes": 8601,
+    "SHA256": "6C54781317C14FBA4C9CDECA582EE5E01070225ECA508E700B316617C2738E19"
+  },
+  {
+    "Path": "src\\components\\tracking\\ShipmentInfo.tsx",
+    "Bytes": 2432,
+    "SHA256": "D9F264C20B0990D3609BD847B9944639A1FCF67BA21EB32E1963C60B3F16A6F8"
+  },
+  {
+    "Path": "src\\components\\tracking\\TrackingOrderSummary.tsx",
+    "Bytes": 2230,
+    "SHA256": "BB4FADCDE84659B85BE321440FBA7E400DB79834CC48BC7D80A36FA5F97F87A3"
+  },
+  {
+    "Path": "src\\components\\tracking\\TrackingTimeline.tsx",
+    "Bytes": 3415,
+    "SHA256": "826BE6C4742B5EF1A854E67C8F3956662AE9CAFC565B0401B60A13165697E639"
+  },
+  {
+    "Path": "src\\components\\ui\\accordion.tsx",
+    "Bytes": 2588,
+    "SHA256": "1EC19686C56B2DF3C1AB4F7CF8C3AAE03DBBF959DCE207C7C12A9DCD1E1D3BB2"
+  },
+  {
+    "Path": "src\\components\\ui\\alert-dialog.tsx",
+    "Bytes": 5263,
+    "SHA256": "D39348EA094DEA9B83ECF1BAAC1CD0EF98B73944BCCA1E592DA04FD30F452787"
+  },
+  {
+    "Path": "src\\components\\ui\\avatar.tsx",
+    "Bytes": 3028,
+    "SHA256": "BFF76087EA9AF25C6AA5A5306088DC66E62204A126752C38561736ACFF00717F"
+  },
+  {
+    "Path": "src\\components\\ui\\badge.tsx",
+    "Bytes": 1915,
+    "SHA256": "D9FB280E266119C4B62A4C518E63152DE27B094C68D3E5F8929D05BFB0C1BC6C"
+  },
+  {
+    "Path": "src\\components\\ui\\breadcrumb.tsx",
+    "Bytes": 2576,
+    "SHA256": "CBD2B85E7A0097438855FF1BBA8AC0CC3D1229E4C94BDA3D52176FD22EA2AC62"
+  },
+  {
+    "Path": "src\\components\\ui\\button.tsx",
+    "Bytes": 3230,
+    "SHA256": "313353436D0FCC8E44AB470ADB614B9FD013D28626F624328EA0D66D41A6C81B"
+  },
+  {
+    "Path": "src\\components\\ui\\calendar.tsx",
+    "Bytes": 8259,
+    "SHA256": "F27BDEE7BFF15B40047071310FF6B6EA6F77F2B7D0A35011F593708CA09E3934"
+  },
+  {
+    "Path": "src\\components\\ui\\card.tsx",
+    "Bytes": 2620,
+    "SHA256": "8AD3A18D36BDA0598DC0E9AA96EA22854944D5443EE4946F1D173815E115375F"
+  },
+  {
+    "Path": "src\\components\\ui\\carousel.tsx",
+    "Bytes": 5602,
+    "SHA256": "7CB0820EB976544895DA1EFA2B7D350BD73E65586C62C0A7FAD9A6896C9FDB8D"
+  },
+  {
+    "Path": "src\\components\\ui\\checkbox.tsx",
+    "Bytes": 1529,
+    "SHA256": "D1B341A2B439DA009E42388CDE8A829ADCF55ECB0D447449271AACAD752E73BA"
+  },
+  {
+    "Path": "src\\components\\ui\\command.tsx",
+    "Bytes": 4996,
+    "SHA256": "EACCDA4B82A74406FC744A6EC084F56951A0A613E9C2A4F762B54FA548B376E9"
+  },
+  {
+    "Path": "src\\components\\ui\\dialog.tsx",
+    "Bytes": 4066,
+    "SHA256": "7E96B921D921EE9FB7C53E9372B17E775D087BE9788CE1D51CBCDBAB2B0D4BA5"
+  },
+  {
+    "Path": "src\\components\\ui\\drawer.tsx",
+    "Bytes": 11346,
+    "SHA256": "40EBFE5567A498DA849ADDBFB1E966FD147C0B7503523FB1C3EBAD9DF077A02D"
+  },
+  {
+    "Path": "src\\components\\ui\\dropdown-menu.tsx",
+    "Bytes": 8726,
+    "SHA256": "FFD69006ED9C79E16FFEFFFBF8A9EBBF1C34CA38F40CB9939C946A71943127D7"
+  },
+  {
+    "Path": "src\\components\\ui\\hover-card.tsx",
+    "Bytes": 1845,
+    "SHA256": "DBAC09BF55D501E4F22E52DFFE298F009B8CCE8F1539902B3104A5C029163D0C"
+  },
+  {
+    "Path": "src\\components\\ui\\input-group.tsx",
+    "Bytes": 5255,
+    "SHA256": "7E768D41F247B1A4A3B0D214453DBEB1C2150ABA500F5C0037B0285DFBE6A899"
+  },
+  {
+    "Path": "src\\components\\ui\\input.tsx",
+    "Bytes": 1030,
+    "SHA256": "DAB990DFEFA0BA78854AB6602AD074270DBA9D7D1262184D9BFBB62BD990903B"
+  },
+  {
+    "Path": "src\\components\\ui\\label.tsx",
+    "Bytes": 508,
+    "SHA256": "B3B7B21D2877838FC73713DF48A47248392DE04A3B3FAFA8961369F33AB14530"
+  },
+  {
+    "Path": "src\\components\\ui\\navigation-menu.tsx",
+    "Bytes": 7383,
+    "SHA256": "FF6D85222A27FFA54CE6A20EC3203E293B04E188AC05D28FC43F28DC1AAA175E"
+  },
+  {
+    "Path": "src\\components\\ui\\pagination.tsx",
+    "Bytes": 2855,
+    "SHA256": "CC9F341B4C2599FE9B2B0A3DEA86630B3FCFE3E1647185FD7D8D5A7A96DA3C50"
+  },
+  {
+    "Path": "src\\components\\ui\\popover.tsx",
+    "Bytes": 2564,
+    "SHA256": "B6BC5045E7B67414816F813788B5F699D0CC5E4A23DEBE76C89A6DDB68079C26"
+  },
+  {
+    "Path": "src\\components\\ui\\progress.tsx",
+    "Bytes": 1730,
+    "SHA256": "2C104695A495968E9EE426039E291ABC4FB2FF32F36B5FAA4E8B450C2A4CC14C"
+  },
+  {
+    "Path": "src\\components\\ui\\radio-group.tsx",
+    "Bytes": 1825,
+    "SHA256": "F779542F2370B82FCBB91278FB94F7AD4AF59D0F36512633492604B27DA48E8D"
+  },
+  {
+    "Path": "src\\components\\ui\\scroll-area.tsx",
+    "Bytes": 1614,
+    "SHA256": "829549F352F1E56DFE887446BCC3D1707C0CED739A9EFCB75F0AF364CD88C581"
+  },
+  {
+    "Path": "src\\components\\ui\\select.tsx",
+    "Bytes": 6645,
+    "SHA256": "4BA225FB838887A2493A8908774F1294FFBC2030AF1E372425C6DE76F598F0EB"
+  },
+  {
+    "Path": "src\\components\\ui\\separator.tsx",
+    "Bytes": 535,
+    "SHA256": "9A80FF8C110E0C55489509F4F82EBCC929C0174B59544047147B7134F86A54E7"
+  },
+  {
+    "Path": "src\\components\\ui\\sheet.tsx",
+    "Bytes": 4424,
+    "SHA256": "67ED95AB6BB4F61CDCEE2CF2811A80B40A7E11ADFEC5D35EB71707B51F753598"
+  },
+  {
+    "Path": "src\\components\\ui\\skeleton.tsx",
+    "Bytes": 266,
+    "SHA256": "4C2AF7FA9C645358A0FB188779DEAB6F0B981733B62BEFC25E18AAEBEA1350DC"
+  },
+  {
+    "Path": "src\\components\\ui\\sonner.tsx",
+    "Bytes": 1226,
+    "SHA256": "2DD975AD2170BA2570B00E58713DCBDA90F26A7FFFDACEB1EF7255F450C2D2A6"
+  },
+  {
+    "Path": "src\\components\\ui\\switch.tsx",
+    "Bytes": 1801,
+    "SHA256": "D232E2FFCFA122C59099872BCB8395EAAD36D42FA9D2E0E40382AD19994065E2"
+  },
+  {
+    "Path": "src\\components\\ui\\tabs.tsx",
+    "Bytes": 3487,
+    "SHA256": "958B817B256CFFAE986D046168B70DD0153D542B4C521EE8BBDDA349010011EF"
+  },
+  {
+    "Path": "src\\components\\ui\\textarea.tsx",
+    "Bytes": 832,
+    "SHA256": "82601C91FFC6C727D924162C78D7CB853114BCCED4E2EB922A68CA12D4239C0F"
+  },
+  {
+    "Path": "src\\components\\ui\\tooltip.tsx",
+    "Bytes": 2836,
+    "SHA256": "F83D5F511812573F4AC98B866D397A46FDA0F27EEB0AF0EA89AF01969EEFBC5A"
+  },
+  {
+    "Path": "src\\data\\auth.ts",
+    "Bytes": 2010,
+    "SHA256": "13D2B53B95FA1AADC706FC2BEAECE575F9749126B9D32B5B261D7A3C6E5D7C3A"
+  },
+  {
+    "Path": "src\\data\\campaigns.ts",
+    "Bytes": 1329,
+    "SHA256": "DB5E1AC8244CF59C3C7BF34A85B544BE0AAE59F5061E6DE1D9994BD4DEF6C300"
+  },
+  {
+    "Path": "src\\data\\cart.ts",
+    "Bytes": 1109,
+    "SHA256": "771D0216300BF4715B77705724A68BB65F5A11F9F4D9B8B43CB446CE40C78748"
+  },
+  {
+    "Path": "src\\data\\categories.ts",
+    "Bytes": 1704,
+    "SHA256": "3B79A8E78C208772A681C0DAB40A03DF0C98228E2493C33E42F5C1A5581A64F7"
+  },
+  {
+    "Path": "src\\data\\giftGuides.ts",
+    "Bytes": 1328,
+    "SHA256": "CF0ACEE7DDA0947BB2C222BEF067A8F040BA4072D3815D0DA56AF43CA81060F0"
+  },
+  {
+    "Path": "src\\data\\navigation.ts",
+    "Bytes": 4372,
+    "SHA256": "78EA41C9DA55F679B23DE0C36A8C849AFCE8F91316C27093A0501A5A2EF9B404"
+  },
+  {
+    "Path": "src\\data\\occasions.ts",
+    "Bytes": 1727,
+    "SHA256": "C3FCFA1E15998C19CFAE42CA620F587B2A30A399F07040F730D56CF384A33ADF"
+  },
+  {
+    "Path": "src\\data\\orders.ts",
+    "Bytes": 5018,
+    "SHA256": "FEAA504C33BA2DD197970EA37910BCCAF39438C9F7FF8B2225C2FFA2AA53AF3C"
+  },
+  {
+    "Path": "src\\data\\products.ts",
+    "Bytes": 2684,
+    "SHA256": "CF89D9F7696982CC8E4C7BD88C205951722B8D112FB4590841D844AE215D364E"
+  },
+  {
+    "Path": "src\\data\\recipients.ts",
+    "Bytes": 1682,
+    "SHA256": "99C5E2899C462B8D83BB03BD01DE05DEA6B657C0788F451E60E003DF415059DC"
+  },
+  {
+    "Path": "src\\data\\reviews.ts",
+    "Bytes": 1521,
+    "SHA256": "A221A3E75888B72AFD7FD877BAD9D37614A83418DFAD940DA87D6EA8B7DAEF16"
+  },
+  {
+    "Path": "src\\data\\sameDayProducts.ts",
+    "Bytes": 2083,
+    "SHA256": "9897A4551297F4486EDADCF9C73DED1F25ED84DEE206A3DAC6D4F12AFA5C4E4A"
+  },
+  {
+    "Path": "src\\lib\\utils.ts",
+    "Bytes": 24,
+    "SHA256": "14300D758170C270C75B057F38FEDB3793A5920EA872F0477E29FB131185E8A7"
+  },
+  {
+    "Path": "public\\file.svg",
+    "Bytes": 391,
+    "SHA256": "2B67812C325C199A02536CDBEEA0C593A72F707D323B72EE3E08DBAB06753BD4"
+  },
+  {
+    "Path": "public\\globe.svg",
+    "Bytes": 1035,
+    "SHA256": "B614B9BF183925957661AC851498FE1D8029FD43A62FBFED86F9E2624A57E7CF"
+  },
+  {
+    "Path": "public\\herobg.png",
+    "Bytes": 2601588,
+    "SHA256": "278499CFDEB9FFD4DD8212D95D0F6D47B1F2D95B77973DCA6B7B75696D4163FD"
+  },
+  {
+    "Path": "public\\logo.png",
+    "Bytes": 716673,
+    "SHA256": "8983DD839F8C6E57AD9B4AECF10714508F5236E2DD697D6220C6AA93D9651288"
+  },
+  {
+    "Path": "public\\next.svg",
+    "Bytes": 1375,
+    "SHA256": "55995DFAD6ECB4945A1E856DDCA03C5E16AA5BF13FD21B4DF6A74AE79357BCFC"
+  },
+  {
+    "Path": "public\\vercel.svg",
+    "Bytes": 128,
+    "SHA256": "F081337B2FEE635B455B63275406A3E7F39D6A014E25AD90DAB5A67E62A12AC4"
+  },
+  {
+    "Path": "public\\window.svg",
+    "Bytes": 385,
+    "SHA256": "644768C4AAEB4767BCE293344EEB0C125FB804A94D801440424072202D85E3A1"
+  },
+  {
+    "Path": "AGENTS.md",
+    "Bytes": 679,
+    "SHA256": "063098F6CB31BB44C6F8FBEA25B3876DE7EE1E5F7D00A50DBAB506F6415EB7F0"
+  },
+  {
+    "Path": "package.json",
+    "Bytes": 916,
+    "SHA256": "520AEA385490F281343B67D0BFDA7D2C57E2BEA7FCCA23D2154B3EBA897A369F"
+  },
+  {
+    "Path": "package-lock.json",
+    "Bytes": 367339,
+    "SHA256": "259B40066094605BDD2AB0489D7F59EA7BBC99865D586CC6064A580CAE5C09E7"
+  },
+  {
+    "Path": "next.config.ts",
+    "Bytes": 318,
+    "SHA256": "17145A9822EC351B92B8A5F8D3A709A531C8690ED92D397A4405AE084EA9ACC7"
+  },
+  {
+    "Path": "tsconfig.json",
+    "Bytes": 670,
+    "SHA256": "5C51DF4C59F4510D8C7DADF07A5C32132228826A3B331DA5E286207B4DF7EF9C"
+  },
+  {
+    "Path": "eslint.config.mjs",
+    "Bytes": 465,
+    "SHA256": "870F1ADCCECF3051CBCD9FD307CEF51D7633CF510979C181A81F4B1797273493"
+  },
+  {
+    "Path": "components.json",
+    "Bytes": 520,
+    "SHA256": "7F89B1E9E3995BE8620BE3162DF8E08B7DD512F894FB0ACCB559193138FDC390"
+  },
+  {
+    "Path": "README.md",
+    "Bytes": 1450,
+    "SHA256": "60B55FF7DF79AF72590F9524208E46642BC32BDC175CDAD41349681C0E2F958F"
+  },
+  {
+    "Path": ".gitignore",
+    "Bytes": 480,
+    "SHA256": "207E265FF4901F9AD9F96D8CE08530E04F9FC600815472A66D0A446096D654CD"
+  }
+]

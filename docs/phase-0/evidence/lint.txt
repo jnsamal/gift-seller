@@ -1,0 +1,317 @@
+
+> gift@0.1.0 lint
+> eslint
+
+
+C:\Code\Qubnix\gift-main\src\app\category\[slug]\error.tsx
+  29:17  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Code\Qubnix\gift-main\src\app\login\page.tsx
+   6:10  warning  'ArrowRight' is defined but never used  @typescript-eslint/no-unused-vars
+  53:14  warning  'err' is defined but never used         @typescript-eslint/no-unused-vars
+
+C:\Code\Qubnix\gift-main\src\app\page.tsx
+   4:10  warning  'Input' is defined but never used                                                                                                                                                                                                                                                        @typescript-eslint/no-unused-vars
+   5:10  warning  'Card' is defined but never used                                                                                                                                                                                                                                                         @typescript-eslint/no-unused-vars
+   5:16  warning  'CardContent' is defined but never used                                                                                                                                                                                                                                                  @typescript-eslint/no-unused-vars
+   6:10  warning  'Badge' is defined but never used                                                                                                                                                                                                                                                        @typescript-eslint/no-unused-vars
+   7:10  warning  'Separator' is defined but never used                                                                                                                                                                                                                                                    @typescript-eslint/no-unused-vars
+   8:10  warning  'ScrollArea' is defined but never used                                                                                                                                                                                                                                                   @typescript-eslint/no-unused-vars
+   8:22  warning  'ScrollBar' is defined but never used                                                                                                                                                                                                                                                    @typescript-eslint/no-unused-vars
+   9:10  warning  'Search' is defined but never used                                                                                                                                                                                                                                                       @typescript-eslint/no-unused-vars
+   9:18  warning  'MapPin' is defined but never used                                                                                                                                                                                                                                                       @typescript-eslint/no-unused-vars
+   9:26  warning  'ShoppingBag' is defined but never used                                                                                                                                                                                                                                                  @typescript-eslint/no-unused-vars
+   9:39  warning  'User' is defined but never used                                                                                                                                                                                                                                                         @typescript-eslint/no-unused-vars
+   9:45  warning  'ArrowRight' is defined but never used                                                                                                                                                                                                                                                   @typescript-eslint/no-unused-vars
+   9:57  warning  'Calendar' is defined but never used                                                                                                                                                                                                                                                     @typescript-eslint/no-unused-vars
+   9:67  warning  'Star' is defined but never used                                                                                                                                                                                                                                                         @typescript-eslint/no-unused-vars
+   9:83  warning  'Truck' is defined but never used                                                                                                                                                                                                                                                        @typescript-eslint/no-unused-vars
+  31:7   warning  'TRENDING' is assigned a value but never used                                                                                                                                                                                                                                            @typescript-eslint/no-unused-vars
+  57:15  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+C:\Code\Qubnix\gift-main\src\app\product\[slug]\page.tsx
+  70:10  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Code\Qubnix\gift-main\src\app\verify-otp\page.tsx
+  118:14  warning  'err' is defined but never used                                  @typescript-eslint/no-unused-vars
+  203:48  error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Code\Qubnix\gift-main\src\components\CategoryNavigation.tsx
+    5:10  warning  'ChevronDown' is defined but never used                                                                                                                                                                                                                                                  @typescript-eslint/no-unused-vars
+    6:27  warning  'NavItem' is defined but never used                                                                                                                                                                                                                                                      @typescript-eslint/no-unused-vars
+   19:83  error    Unexpected any. Specify a different type                                                                                                                                                                                                                                                 @typescript-eslint/no-explicit-any
+   55:18  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+   65:40  error    Unexpected any. Specify a different type                                                                                                                                                                                                                                                 @typescript-eslint/no-explicit-any
+  208:63  error    Unexpected any. Specify a different type                                                                                                                                                                                                                                                 @typescript-eslint/no-explicit-any
+
+C:\Code\Qubnix\gift-main\src\components\DeliveryIntent.tsx
+    3:20  warning  'useRef' is defined but never used                               @typescript-eslint/no-unused-vars
+    3:28  warning  'useEffect' is defined but never used                            @typescript-eslint/no-unused-vars
+  205:25  error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Code\Qubnix\gift-main\src\components\Logo.tsx
+  6:7  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+C:\Code\Qubnix\gift-main\src\components\MainNavbar.tsx
+  40:28  warning  'user' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+C:\Code\Qubnix\gift-main\src\components\NavbarSearch.tsx
+   5:21  warning  'Clock' is defined but never used                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       @typescript-eslint/no-unused-vars
+  22:5   error    Error: Calling setState synchronously within an effect can trigger cascading renders
+
+Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:
+* Update external systems with the latest state from React.
+* Subscribe for updates from some external system, calling setState in a callback function when external state changes.
+
+Calling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect).
+
+C:\Code\Qubnix\gift-main\src\components\NavbarSearch.tsx:22:5
+  20 |   // Sync with URL if it changes externally
+  21 |   useEffect(() => {
+> 22 |     setQuery(searchParams.get("q") || "");
+     |     ^^^^^^^^ Avoid calling setState() directly within an effect
+  23 |   }, [searchParams]);
+  24 |
+  25 |   useEffect(() => {  react-hooks/set-state-in-effect
+
+C:\Code\Qubnix\gift-main\src\components\auth\AuthContext.tsx
+  25:9   error    Error: Calling setState synchronously within an effect can trigger cascading renders
+
+Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:
+* Update external systems with the latest state from React.
+* Subscribe for updates from some external system, calling setState in a callback function when external state changes.
+
+Calling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect).
+
+C:\Code\Qubnix\gift-main\src\components\auth\AuthContext.tsx:25:9
+  23 |     if (storedUser) {
+  24 |       try {
+> 25 |         setUser(JSON.parse(storedUser));
+     |         ^^^^^^^ Avoid calling setState() directly within an effect
+  26 |       } catch (e) {}
+  27 |     }
+  28 |     setIsLoading(false);  react-hooks/set-state-in-effect
+  26:16  warning  'e' is defined but never used                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            @typescript-eslint/no-unused-vars
+
+C:\Code\Qubnix\gift-main\src\components\checkout\CheckoutPage.tsx
+    5:24  warning  'CheckCircle2' is defined but never used                         @typescript-eslint/no-unused-vars
+  234:40  error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  234:48  error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+
+C:\Code\Qubnix\gift-main\src\components\checkout\OrderSuccessPage.tsx
+   26:22  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+   56:25  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+   59:22  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  106:15  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Code\Qubnix\gift-main\src\components\commerce\CartEmptyState.tsx
+  3:10  warning  'Button' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Code\Qubnix\gift-main\src\components\gifting\CategoryPage.tsx
+   87:17  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+  125:35  error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`                                                                                                                                                                                                                          react/no-unescaped-entities
+  128:70  error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`                                                                                                                                                                                                                          react/no-unescaped-entities
+
+C:\Code\Qubnix\gift-main\src\components\gifting\CorporateGifting.tsx
+   5:10  warning  'Button' is defined but never used                                                                                                                                                                                                                                                       @typescript-eslint/no-unused-vars
+  72:13  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+C:\Code\Qubnix\gift-main\src\components\gifting\CustomerReviews.tsx
+  31:9   error  `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  31:23  error  `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+
+C:\Code\Qubnix\gift-main\src\components\gifting\GiftFinder.tsx
+  120:3   error    Error: Cannot access refs during render
+
+React refs are values that are not needed for rendering. Refs should only be accessed outside of render, such as in event handlers or effects. Accessing a ref value (the `current` property) during render can cause your component not to update as expected (https://react.dev/reference/react/useRef).
+
+C:\Code\Qubnix\gift-main\src\components\gifting\GiftFinder.tsx:120:3
+  118 |   const active = names.indexOf(name) === stepIndex;
+  119 |   const choiceCounterRef = React.useRef(0);
+> 120 |   choiceCounterRef.current = 0;
+      |   ^^^^^^^^^^^^^^^^^^^^^^^^ Cannot update ref during render
+  121 |
+  122 |   React.useEffect(() => {
+  123 |     setRequired(name, Boolean(required));                                                                                                                                                                                       react-hooks/refs
+  141:69  error    Error: This value cannot be modified
+
+Modifying a value returned from a hook is not allowed. Consider moving the modification into the hook where the value is constructed.
+
+C:\Code\Qubnix\gift-main\src\components\gifting\GiftFinder.tsx:141:69
+  139 |
+  140 |   const shortcutIndexRef = React.useRef<number | null>(null);
+> 141 |   if (shortcutIndexRef.current === null) shortcutIndexRef.current = itemCtx.choiceCounterRef.current++;
+      |                                                                     ^^^^^^^^^^^^^^^^^^^^^^^^ value cannot be modified
+  142 |   
+  143 |   const shortcutIndex = shortcutIndexRef.current;
+  144 |   const shortcutLabel = shortcuts === "letters" ? (SHORTCUT_LETTERS[shortcutIndex] ?? null) : shortcuts === "numbers" ? String(shortcutIndex + 1) : null;
+
+Hint: If this value is a Ref (value returned by `useRef()`), rename the variable to end in "Ref"                react-hooks/immutability
+  143:25  error    Error: Cannot access refs during render
+
+React refs are values that are not needed for rendering. Refs should only be accessed outside of render, such as in event handlers or effects. Accessing a ref value (the `current` property) during render can cause your component not to update as expected (https://react.dev/reference/react/useRef).
+
+C:\Code\Qubnix\gift-main\src\components\gifting\GiftFinder.tsx:143:25
+  141 |   if (shortcutIndexRef.current === null) shortcutIndexRef.current = itemCtx.choiceCounterRef.current++;
+  142 |   
+> 143 |   const shortcutIndex = shortcutIndexRef.current;
+      |                         ^^^^^^^^^^^^^^^^^^^^^^^^ Cannot access ref value during render
+  144 |   const shortcutLabel = shortcuts === "letters" ? (SHORTCUT_LETTERS[shortcutIndex] ?? null) : shortcuts === "numbers" ? String(shortcutIndex + 1) : null;
+  145 |
+  146 |   const currentValue = values[name];  react-hooks/refs
+  143:25  error    Error: Cannot access refs during render
+
+React refs are values that are not needed for rendering. Refs should only be accessed outside of render, such as in event handlers or effects. Accessing a ref value (the `current` property) during render can cause your component not to update as expected (https://react.dev/reference/react/useRef).
+
+C:\Code\Qubnix\gift-main\src\components\gifting\GiftFinder.tsx:143:25
+  141 |   if (shortcutIndexRef.current === null) shortcutIndexRef.current = itemCtx.choiceCounterRef.current++;
+  142 |   
+> 143 |   const shortcutIndex = shortcutIndexRef.current;
+      |                         ^^^^^^^^^^^^^^^^^^^^^^^^ Cannot access ref value during render
+  144 |   const shortcutLabel = shortcuts === "letters" ? (SHORTCUT_LETTERS[shortcutIndex] ?? null) : shortcuts === "numbers" ? String(shortcutIndex + 1) : null;
+  145 |
+  146 |   const currentValue = values[name];  react-hooks/refs
+  338:53  error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        react/no-unescaped-entities
+  338:98  error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        react/no-unescaped-entities
+  348:15  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                @next/next/no-img-element
+
+C:\Code\Qubnix\gift-main\src\components\gifting\GiftInspiration.tsx
+  16:9  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+C:\Code\Qubnix\gift-main\src\components\gifting\Newsletter.tsx
+  75:79  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  78:21  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Code\Qubnix\gift-main\src\components\gifting\PersonalisedGifts.tsx
+  74:13  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+C:\Code\Qubnix\gift-main\src\components\gifting\PopularCategories.tsx
+  30:9  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+C:\Code\Qubnix\gift-main\src\components\gifting\ProductCard.tsx
+  37:9  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+C:\Code\Qubnix\gift-main\src\components\gifting\ProductGallery.tsx
+   69:6   warning  React Hook useEffect has missing dependencies: 'nextImage' and 'prevImage'. Either include them or remove the dependency array                                                                                                                                                           react-hooks/exhaustive-deps
+   94:15  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+  113:17  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+  191:13  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+C:\Code\Qubnix\gift-main\src\components\gifting\ProductInfo.tsx
+  12:10  warning  'Textarea' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Code\Qubnix\gift-main\src\components\gifting\ProductListing.tsx
+    5:29  warning  'ChevronDown' is defined but never used                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             @typescript-eslint/no-unused-vars
+   18:10  warning  'Separator' is defined but never used                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               @typescript-eslint/no-unused-vars
+  289:18  error    Error: Cannot create components during render
+
+Components created during render will reset their state each time they are created. Declare components outside of render.
+
+C:\Code\Qubnix\gift-main\src\components\gifting\ProductListing.tsx:289:18
+  287 |               </SheetHeader>
+  288 |               <div className="flex-1 overflow-y-auto p-5">
+> 289 |                 <FilterContent />
+      |                  ^^^^^^^^^^^^^ This component is created during render
+  290 |               </div>
+  291 |               <div className="p-5 border-t border-[#E4E7E2] mt-auto bg-[#F4F2EA]">
+  292 |                 <Button className="w-full bg-[#07514D] hover:bg-[#043F3C] text-[#FCFAF5] rounded-md h-12 text-[15px] font-medium">
+
+C:\Code\Qubnix\gift-main\src\components\gifting\ProductListing.tsx:148:25
+  146 |   const hasActiveFilters = selectedPrices.length > 0 || selectedRecipients.length > 0 || selectedDelivery.length > 0 || selectedPersonalised !== "all";
+  147 |
+> 148 |   const FilterContent = () => (
+      |                         ^^^^^^^
+> 149 |     <div className="flex flex-col gap-6 w-full">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 150 |       {hasActiveFilters && (
+      …
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 263 |     </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 264 |   );
+      | ^^^^ The component is created during render here
+  265 |
+  266 |   return (
+  267 |     <div className="w-full flex flex-col">  react-hooks/static-components
+  338:12  error    Error: Cannot create components during render
+
+Components created during render will reset their state each time they are created. Declare components outside of render.
+
+C:\Code\Qubnix\gift-main\src\components\gifting\ProductListing.tsx:338:12
+  336 |         {/* Desktop Sidebar */}
+  337 |         <aside className="hidden lg:block w-[240px] xl:w-[280px] shrink-0 sticky top-12">
+> 338 |           <FilterContent />
+      |            ^^^^^^^^^^^^^ This component is created during render
+  339 |         </aside>
+  340 |
+  341 |         {/* Product Grid Area */}
+
+C:\Code\Qubnix\gift-main\src\components\gifting\ProductListing.tsx:148:25
+  146 |   const hasActiveFilters = selectedPrices.length > 0 || selectedRecipients.length > 0 || selectedDelivery.length > 0 || selectedPersonalised !== "all";
+  147 |
+> 148 |   const FilterContent = () => (
+      |                         ^^^^^^^
+> 149 |     <div className="flex flex-col gap-6 w-full">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 150 |       {hasActiveFilters && (
+      …
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 263 |     </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 264 |   );
+      | ^^^^ The component is created during render here
+  265 |
+  266 |   return (
+  267 |     <div className="w-full flex flex-col">                                                                                                                                                                    react-hooks/static-components
+  413:19  error    Do not use an `<a>` element to navigate to `/category/all/`. Use `<Link />` from `next/link` instead. See: https://nextjs.org/docs/messages/no-html-link-for-pages                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  @next/next/no-html-link-for-pages
+
+C:\Code\Qubnix\gift-main\src\components\gifting\PromotionalCollections.tsx
+  15:9  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+C:\Code\Qubnix\gift-main\src\components\gifting\SameDayGifts.tsx
+  13:28  warning  'setSelectedLocation' is assigned a value but never used         @typescript-eslint/no-unused-vars
+  42:34  error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Code\Qubnix\gift-main\src\components\gifting\SearchPage.tsx
+   1:8   warning  'Link' is defined but never used                                 @typescript-eslint/no-unused-vars
+  62:15  error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  62:23  error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+
+C:\Code\Qubnix\gift-main\src\components\gifting\ShopByOccasion.tsx
+  29:7  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+C:\Code\Qubnix\gift-main\src\components\gifting\ShopByRecipient.tsx
+  29:9   warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+  85:34  error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`                                                                                                                                                                                                                          react/no-unescaped-entities
+
+C:\Code\Qubnix\gift-main\src\components\tracking\OrderTrackingPage.tsx
+  5:10  warning  'ArrowRight' is defined but never used  @typescript-eslint/no-unused-vars
+  5:39  warning  'Copy' is defined but never used        @typescript-eslint/no-unused-vars
+  5:45  warning  'Check' is defined but never used       @typescript-eslint/no-unused-vars
+
+C:\Code\Qubnix\gift-main\src\components\tracking\TrackingTimeline.tsx
+  1:17  warning  'Clock' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Code\Qubnix\gift-main\src\components\ui\carousel.tsx
+  98:5  error  Error: Calling setState synchronously within an effect can trigger cascading renders
+
+Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:
+* Update external systems with the latest state from React.
+* Subscribe for updates from some external system, calling setState in a callback function when external state changes.
+
+Calling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect).
+
+C:\Code\Qubnix\gift-main\src\components\ui\carousel.tsx:98:5
+   96 |   React.useEffect(() => {
+   97 |     if (!api) return
+>  98 |     onSelect(api)
+      |     ^^^^^^^^ Avoid calling setState() directly within an effect
+   99 |     api.on("reInit", onSelect)
+  100 |     api.on("select", onSelect)
+  101 |  react-hooks/set-state-in-effect
+
+C:\Code\Qubnix\gift-main\src\data\auth.ts
+  25:13  warning  'isPhone' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+✖ 91 problems (35 errors, 56 warnings)
+

@@ -1,0 +1,117 @@
+
+> gift@0.1.0 lint
+> eslint
+
+
+C:\Code\Qubnix\gift-main\src\app\login\page.tsx
+   6:10  warning  'ArrowRight' is defined but never used  @typescript-eslint/no-unused-vars
+  54:14  warning  'err' is defined but never used         @typescript-eslint/no-unused-vars
+
+C:\Code\Qubnix\gift-main\src\app\page.tsx
+   4:10  warning  'Input' is defined but never used                                                                                                                                                                                                                                                        @typescript-eslint/no-unused-vars
+   5:10  warning  'Card' is defined but never used                                                                                                                                                                                                                                                         @typescript-eslint/no-unused-vars
+   5:16  warning  'CardContent' is defined but never used                                                                                                                                                                                                                                                  @typescript-eslint/no-unused-vars
+   6:10  warning  'Badge' is defined but never used                                                                                                                                                                                                                                                        @typescript-eslint/no-unused-vars
+   7:10  warning  'Separator' is defined but never used                                                                                                                                                                                                                                                    @typescript-eslint/no-unused-vars
+   8:10  warning  'ScrollArea' is defined but never used                                                                                                                                                                                                                                                   @typescript-eslint/no-unused-vars
+   8:22  warning  'ScrollBar' is defined but never used                                                                                                                                                                                                                                                    @typescript-eslint/no-unused-vars
+   9:10  warning  'Search' is defined but never used                                                                                                                                                                                                                                                       @typescript-eslint/no-unused-vars
+   9:18  warning  'MapPin' is defined but never used                                                                                                                                                                                                                                                       @typescript-eslint/no-unused-vars
+   9:26  warning  'ShoppingBag' is defined but never used                                                                                                                                                                                                                                                  @typescript-eslint/no-unused-vars
+   9:39  warning  'User' is defined but never used                                                                                                                                                                                                                                                         @typescript-eslint/no-unused-vars
+   9:45  warning  'ArrowRight' is defined but never used                                                                                                                                                                                                                                                   @typescript-eslint/no-unused-vars
+   9:57  warning  'Calendar' is defined but never used                                                                                                                                                                                                                                                     @typescript-eslint/no-unused-vars
+   9:67  warning  'Star' is defined but never used                                                                                                                                                                                                                                                         @typescript-eslint/no-unused-vars
+   9:83  warning  'Truck' is defined but never used                                                                                                                                                                                                                                                        @typescript-eslint/no-unused-vars
+  31:7   warning  'TRENDING' is assigned a value but never used                                                                                                                                                                                                                                            @typescript-eslint/no-unused-vars
+  57:15  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+C:\Code\Qubnix\gift-main\src\app\verify-otp\page.tsx
+  119:14  warning  'err' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Code\Qubnix\gift-main\src\components\CategoryNavigation.tsx
+   5:10  warning  'ChevronDown' is defined but never used                                                                                                                                                                                                                                                  @typescript-eslint/no-unused-vars
+  55:18  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+C:\Code\Qubnix\gift-main\src\components\DeliveryIntent.tsx
+  3:20  warning  'useRef' is defined but never used     @typescript-eslint/no-unused-vars
+  3:28  warning  'useEffect' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Code\Qubnix\gift-main\src\components\Logo.tsx
+  6:7  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+C:\Code\Qubnix\gift-main\src\components\MainNavbar.tsx
+  40:28  warning  'user' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+C:\Code\Qubnix\gift-main\src\components\NavbarSearch.tsx
+  5:21  warning  'Clock' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Code\Qubnix\gift-main\src\components\checkout\CheckoutPage.tsx
+  5:24  warning  'CheckCircle2' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Code\Qubnix\gift-main\src\components\commerce\CartEmptyState.tsx
+  3:10  warning  'Button' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Code\Qubnix\gift-main\src\components\gifting\CategoryPage.tsx
+  87:17  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+C:\Code\Qubnix\gift-main\src\components\gifting\CorporateGifting.tsx
+   5:10  warning  'Button' is defined but never used                                                                                                                                                                                                                                                       @typescript-eslint/no-unused-vars
+  72:13  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+C:\Code\Qubnix\gift-main\src\components\gifting\GiftFinder.tsx
+  341:15  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+C:\Code\Qubnix\gift-main\src\components\gifting\GiftInspiration.tsx
+  16:9  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+C:\Code\Qubnix\gift-main\src\components\gifting\PersonalisedGifts.tsx
+  74:13  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+C:\Code\Qubnix\gift-main\src\components\gifting\PopularCategories.tsx
+  30:9  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+C:\Code\Qubnix\gift-main\src\components\gifting\ProductCard.tsx
+  37:9  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+C:\Code\Qubnix\gift-main\src\components\gifting\ProductGallery.tsx
+   69:6   warning  React Hook useEffect has missing dependencies: 'nextImage' and 'prevImage'. Either include them or remove the dependency array                                                                                                                                                           react-hooks/exhaustive-deps
+   94:15  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+  113:17  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+  191:13  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+C:\Code\Qubnix\gift-main\src\components\gifting\ProductInfo.tsx
+  12:10  warning  'Textarea' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Code\Qubnix\gift-main\src\components\gifting\ProductListing.tsx
+   6:29  warning  'ChevronDown' is defined but never used  @typescript-eslint/no-unused-vars
+  19:10  warning  'Separator' is defined but never used    @typescript-eslint/no-unused-vars
+
+C:\Code\Qubnix\gift-main\src\components\gifting\PromotionalCollections.tsx
+  15:9  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+C:\Code\Qubnix\gift-main\src\components\gifting\SameDayGifts.tsx
+  13:28  warning  'setSelectedLocation' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+C:\Code\Qubnix\gift-main\src\components\gifting\SearchPage.tsx
+  1:8  warning  'Link' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Code\Qubnix\gift-main\src\components\gifting\ShopByOccasion.tsx
+  29:7  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+C:\Code\Qubnix\gift-main\src\components\gifting\ShopByRecipient.tsx
+  29:9  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+C:\Code\Qubnix\gift-main\src\components\tracking\OrderTrackingPage.tsx
+  5:10  warning  'ArrowRight' is defined but never used  @typescript-eslint/no-unused-vars
+  5:39  warning  'Copy' is defined but never used        @typescript-eslint/no-unused-vars
+  5:45  warning  'Check' is defined but never used       @typescript-eslint/no-unused-vars
+
+C:\Code\Qubnix\gift-main\src\components\tracking\TrackingTimeline.tsx
+  1:17  warning  'Clock' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Code\Qubnix\gift-main\src\data\auth.ts
+  25:13  warning  'isPhone' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+✖ 54 problems (0 errors, 54 warnings)
+

@@ -1,0 +1,39 @@
+
+> gifty-server@0.1.0 test:e2e
+> playwright test storefront.spec.ts
+
+
+Running 18 tests using 1 worker
+
+(node:4656) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:4656) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  1 [mobile] › e2e\storefront.spec.ts:3:1 › cart renders and checkout button navigates (1.9s)
+  ok  2 [mobile] › e2e\storefront.spec.ts:16:1 › category grid fits viewport and retains visual tokens (1.3s)
+  ok  3 [mobile] › e2e\storefront.spec.ts:28:1 › search safely handles a literal percent (560ms)
+  ok  4 [mobile] › e2e\storefront.spec.ts:34:1 › sample order confirmation renders without client exceptions (1.6s)
+  ok  5 [mobile] › e2e\storefront.spec.ts:42:1 › tracking shows existing development fixture (2.2s)
+  ok  6 [mobile] › e2e\storefront.spec.ts:53:1 › OTP form remains accessible at its established route (597ms)
+(node:23340) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:23340) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  7 [tablet] › e2e\storefront.spec.ts:3:1 › cart renders and checkout button navigates (1.1s)
+  ok  8 [tablet] › e2e\storefront.spec.ts:16:1 › category grid fits viewport and retains visual tokens (1.2s)
+  ok  9 [tablet] › e2e\storefront.spec.ts:28:1 › search safely handles a literal percent (660ms)
+  ok 10 [tablet] › e2e\storefront.spec.ts:34:1 › sample order confirmation renders without client exceptions (1.6s)
+  ok 11 [tablet] › e2e\storefront.spec.ts:42:1 › tracking shows existing development fixture (2.5s)
+  ok 12 [tablet] › e2e\storefront.spec.ts:53:1 › OTP form remains accessible at its established route (619ms)
+(node:7492) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:7492) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 13 [desktop] › e2e\storefront.spec.ts:3:1 › cart renders and checkout button navigates (1.1s)
+  ok 14 [desktop] › e2e\storefront.spec.ts:16:1 › category grid fits viewport and retains visual tokens (1.3s)
+  ok 15 [desktop] › e2e\storefront.spec.ts:28:1 › search safely handles a literal percent (1.1s)
+  ok 16 [desktop] › e2e\storefront.spec.ts:34:1 › sample order confirmation renders without client exceptions (1.8s)
+  ok 17 [desktop] › e2e\storefront.spec.ts:42:1 › tracking shows existing development fixture (2.4s)
+  ok 18 [desktop] › e2e\storefront.spec.ts:53:1 › OTP form remains accessible at its established route (767ms)
+
+  18 passed (31.0s)

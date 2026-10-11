@@ -1,0 +1,27 @@
+
+> gifty-server@0.1.0 db:seed
+> prisma db seed
+
+Loaded Prisma config from prisma.config.ts.
+
+Running seed command `tsx prisma/seed.ts` ...
+C:\Code\Qubnix\gift-main\server\node_modules\@prisma\client\src\runtime\core\engines\client\ClientEngine.ts:309
+      return new PrismaClientKnownRequestError(err.message, {
+             ^
+
+
+PrismaClientKnownRequestError: Transaction API error: Unable to start a transaction in the given time.
+    at #transformRequestError (C:\Code\Qubnix\gift-main\server\node_modules\@prisma\client\src\runtime\core\engines\client\ClientEngine.ts:309:14)
+    at yr.transaction (C:\Code\Qubnix\gift-main\server\node_modules\@prisma\client\src\runtime\core\engines\client\ClientEngine.ts:462:18)
+    at async Proxy._transactionWithCallback (C:\Code\Qubnix\gift-main\server\node_modules\@prisma\client\src\runtime\getPrismaClient.ts:849:16)
+    at async seedDevelopment (C:\Code\Qubnix\gift-main\server\src\lib\seed.ts:5:3)
+    at async <anonymous> (C:\Code\Qubnix\gift-main\server\prisma\seed.ts:9:7) {
+  code: 'P2028',
+  meta: {},
+  clientVersion: '7.10.0'
+}
+
+Node.js v22.14.0
+
+An error occurred while running the seed command:
+Error: Command failed with exit code 1: tsx prisma/seed.ts

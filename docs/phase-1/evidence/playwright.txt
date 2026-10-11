@@ -1,0 +1,173 @@
+
+> gifty-server@0.1.0 test:e2e
+> playwright test storefront.spec.ts
+
+
+Running 18 tests using 1 worker
+
+(node:12092) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:12092) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  1 [mobile] › e2e\storefront.spec.ts:3:1 › cart renders and checkout button navigates (2.8s)
+  x   2 [mobile] › e2e\storefront.spec.ts:16:1 › category grid fits viewport and retains visual tokens (1.8s)
+(node:16832) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:16832) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  3 [mobile] › e2e\storefront.spec.ts:28:1 › search safely handles a literal percent (1.3s)
+  ok  4 [mobile] › e2e\storefront.spec.ts:34:1 › sample order confirmation renders without client exceptions (1.8s)
+  ok  5 [mobile] › e2e\storefront.spec.ts:42:1 › tracking shows existing development fixture (2.3s)
+  ok  6 [mobile] › e2e\storefront.spec.ts:53:1 › OTP form remains accessible at its established route (919ms)
+(node:17240) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:17240) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  7 [tablet] › e2e\storefront.spec.ts:3:1 › cart renders and checkout button navigates (2.3s)
+  x   8 [tablet] › e2e\storefront.spec.ts:16:1 › category grid fits viewport and retains visual tokens (2.1s)
+(node:11312) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:11312) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  9 [tablet] › e2e\storefront.spec.ts:28:1 › search safely handles a literal percent (1.2s)
+  ok 10 [tablet] › e2e\storefront.spec.ts:34:1 › sample order confirmation renders without client exceptions (1.8s)
+  ok 11 [tablet] › e2e\storefront.spec.ts:42:1 › tracking shows existing development fixture (4.2s)
+  ok 12 [tablet] › e2e\storefront.spec.ts:53:1 › OTP form remains accessible at its established route (1.0s)
+(node:21464) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:21464) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 13 [desktop] › e2e\storefront.spec.ts:3:1 › cart renders and checkout button navigates (2.3s)
+  x  14 [desktop] › e2e\storefront.spec.ts:16:1 › category grid fits viewport and retains visual tokens (1.9s)
+(node:8844) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:8844) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 15 [desktop] › e2e\storefront.spec.ts:28:1 › search safely handles a literal percent (1.5s)
+  ok 16 [desktop] › e2e\storefront.spec.ts:34:1 › sample order confirmation renders without client exceptions (1.8s)
+  ok 17 [desktop] › e2e\storefront.spec.ts:42:1 › tracking shows existing development fixture (2.4s)
+  ok 18 [desktop] › e2e\storefront.spec.ts:53:1 › OTP form remains accessible at its established route (976ms)
+
+
+  1) [mobile] › e2e\storefront.spec.ts:16:1 › category grid fits viewport and retains visual tokens 
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 3
+    + Received  + 3
+
+      Array [
+    -   "#FCFAF5",
+    -   "#07514D",
+    -   "#D2A01F",
+    +   "#fcfaf5",
+    +   "#07514d",
+    +   "#d2a01f",
+      ]
+
+      22 |     return ['--background', '--primary', '--secondary'].map(name => styles.getPropertyValue(name).trim());
+      23 |   });
+    > 24 |   expect(tokens).toEqual(['#FCFAF5', '#07514D', '#D2A01F']);
+         |                  ^
+      25 |   await page.screenshot({ path: testInfo.outputPath('category.png'), animations: 'disabled' });
+      26 | });
+      27 |
+        at C:\Code\Qubnix\gift-main\server\e2e\storefront.spec.ts:24:18
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\storefront-category-grid-f-f622e-t-and-retains-visual-tokens-mobile\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\storefront-category-grid-f-f622e-t-and-retains-visual-tokens-mobile\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\storefront-category-grid-f-f622e-t-and-retains-visual-tokens-mobile\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\storefront-category-grid-f-f622e-t-and-retains-visual-tokens-mobile\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) [tablet] › e2e\storefront.spec.ts:16:1 › category grid fits viewport and retains visual tokens 
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 3
+    + Received  + 3
+
+      Array [
+    -   "#FCFAF5",
+    -   "#07514D",
+    -   "#D2A01F",
+    +   "#fcfaf5",
+    +   "#07514d",
+    +   "#d2a01f",
+      ]
+
+      22 |     return ['--background', '--primary', '--secondary'].map(name => styles.getPropertyValue(name).trim());
+      23 |   });
+    > 24 |   expect(tokens).toEqual(['#FCFAF5', '#07514D', '#D2A01F']);
+         |                  ^
+      25 |   await page.screenshot({ path: testInfo.outputPath('category.png'), animations: 'disabled' });
+      26 | });
+      27 |
+        at C:\Code\Qubnix\gift-main\server\e2e\storefront.spec.ts:24:18
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\storefront-category-grid-f-f622e-t-and-retains-visual-tokens-tablet\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\storefront-category-grid-f-f622e-t-and-retains-visual-tokens-tablet\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\storefront-category-grid-f-f622e-t-and-retains-visual-tokens-tablet\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\storefront-category-grid-f-f622e-t-and-retains-visual-tokens-tablet\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3) [desktop] › e2e\storefront.spec.ts:16:1 › category grid fits viewport and retains visual tokens 
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 3
+    + Received  + 3
+
+      Array [
+    -   "#FCFAF5",
+    -   "#07514D",
+    -   "#D2A01F",
+    +   "#fcfaf5",
+    +   "#07514d",
+    +   "#d2a01f",
+      ]
+
+      22 |     return ['--background', '--primary', '--secondary'].map(name => styles.getPropertyValue(name).trim());
+      23 |   });
+    > 24 |   expect(tokens).toEqual(['#FCFAF5', '#07514D', '#D2A01F']);
+         |                  ^
+      25 |   await page.screenshot({ path: testInfo.outputPath('category.png'), animations: 'disabled' });
+      26 | });
+      27 |
+        at C:\Code\Qubnix\gift-main\server\e2e\storefront.spec.ts:24:18
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\storefront-category-grid-f-f622e-t-and-retains-visual-tokens-desktop\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\storefront-category-grid-f-f622e-t-and-retains-visual-tokens-desktop\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\storefront-category-grid-f-f622e-t-and-retains-visual-tokens-desktop\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\storefront-category-grid-f-f622e-t-and-retains-visual-tokens-desktop\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3 failed
+    [mobile] › e2e\storefront.spec.ts:16:1 › category grid fits viewport and retains visual tokens ─
+    [tablet] › e2e\storefront.spec.ts:16:1 › category grid fits viewport and retains visual tokens ─
+    [desktop] › e2e\storefront.spec.ts:16:1 › category grid fits viewport and retains visual tokens 
+  15 passed (45.8s)

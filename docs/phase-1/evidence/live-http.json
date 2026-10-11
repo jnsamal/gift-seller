@@ -1,0 +1,17 @@
+[
+  {
+    "route": "/api/v1/health/live",
+    "status": 200,
+    "body": "{\"data\":{\"status\":\"ok\"},\"requestId\":\"02713a5b-a7b9-4366-bfd1-63e4ae047497\"}"
+  },
+  {
+    "route": "/api/v1/health/ready",
+    "status": 200,
+    "body": "{\"data\":{\"status\":\"ready\"},\"requestId\":\"370abe3d-ae0d-4f25-b2e5-e25f9fd22fa4\"}"
+  },
+  {
+    "route": "/api/v1/openapi.json",
+    "status": 200,
+    "body": "{\"openapi\":\"3.1.0\",\"info\":{\"title\":\"Gifty REST API\",\"version\":\"0.1.0\",\"description\":\"Phase 1 foundation only. No customer/admin/payment APIs are implemented yet.\"},\"servers\":[{\"url\":\"/api/v1\"}],\"paths\":{\"/health/live\":{\"get\":{\"summary\":\"Process liveness (does not require MySQL)\",\"responses\":{\"200\":{\"description\":\"Service health\",\"content\":{\"application/json\":{\"schema\":{\"$ref\":\"#/components/schemas/Health\"}}}},\"400\":{\"description\":\"Safe error response\",\"content\":{\"application/json\":{\"schema\":{\"$ref\":\"#/components/schemas/Error\"}}}},\"429\":{\"description\":\"Safe error response\",\"content\":{\"application/json\":{\"schema\":{\"$ref\":\"#/components/schemas/Error\"}}}}}}},\"/health/ready\":{\"get\":{\"summary\":\"MySQL readiness (SELECT 1)\",\"responses\":{\"200\":{\"description\":\"Service health\",\"content\":{\"application/json\":{\"schema\":{\"$ref\":\"#/components/schemas/Health\"}}}},\"400\":{\"description\":\"Safe error response\",\"content\":{\"application/json\":{\"schema\":{\"$ref\":\"#/components/schemas/Error\"}}}},\"429\":{\"description\":\"Safe error response\",\"content\":{\"application/json\":{\"schema\":{\"$ref\":\"#/components/schemas/Error\"}}}},\"503\":{\"description\":\"Safe error response\",\"content\":{\"application/json\":{\"schema\":{\"$ref\":\"#/components/schemas/Error\"}}}}}}},\"/openapi.json\":{\"get\":{\"summary\":\"This API specification\",\"responses\":{\"200\":{\"description\":\"OpenAPI 3.1 document\"},\"429\":{\"description\":\"Safe error response\",\"content\":{\"application/json\":{\"schema\":{\"$ref\":\"#/components/schemas/Error\"}}}}}}}},\"components\":{\"schemas\":{\"Error\":{\"type\":\"object\",\"required\":[\"error\",\"requestId\"],\"properties\":{\"error\":{\"type\":\"object\",\"required\":[\"code\",\"message\"],\"properties\":{\"code\":{\"type\":\"string\"},\"message\":{\"type\":\"string\"}}},\"requestId\":{\"type\":\"string\",\"format\":\"uuid\"}}},\"Health\":{\"type\":\"object\",\"required\":[\"data\",\"requestId\"],\"properties\":{\"data\":{\"type\":\"object\",\"required\":[\"status\"],\"properties\":{\"status\":{\"type\":\"string\",\"enum\":[\"ok\",\"ready\"]}}},\"requestId\":{\"type\":\"string\",\"format\":\"uuid\"}}}}}}"
+  }
+]
